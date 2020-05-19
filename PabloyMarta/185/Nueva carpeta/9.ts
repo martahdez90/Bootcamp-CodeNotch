@@ -2,18 +2,13 @@
 o	“El numero es par”, si el numero introducido como parámetro de entrada es par
 o	“El numero es impar”, si el numero introducido como parámetro de entrada es impar
  */
-
-
-let parImpar = (array: number[]) => {
-    let condi = true;
-    let i = 0;
-    while (i < array.length) {
-        if (array[i] % 2 == 0 && (condi == true)) {
-            console.log("su array tiene un numero par")
-            condi = false;
-        }
-        i++
+let parImpar = (numero: number): string => {
+    if (numero % 2 === 0) {
+        console.log("par");
+    } else {
+        console.log("impar");
     }
 }
+console.log(parImpar(8));
+console.log(parImpar(9))
 
-parImpar([3, 4, 6]);
