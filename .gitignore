@@ -2,8 +2,7 @@
 
 ### Ignore ###
 *.html
-archivo2.txt
-prueba.js
+ignore/
 
 
 # End of file
