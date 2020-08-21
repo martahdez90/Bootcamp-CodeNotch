@@ -1,0 +1,39 @@
+1. Realizar una función que dada una fecha de nacimiento te devuelva el signo zodiacal 
+
+2. Realizar un procedimiento que dado un país te imprima en que continente estás. (Max 5 países por continente) 
+
+3. Realizar una función que imprima los números impares existentes hasta el número indicado como parámetro de entrada. 
+
+4. Realizar una función que como parámetro de entrada reciba un array y como salida devuelva el array revertido. 
+
+5. Realizar una función que reciba como parámetro un array de strings que contenga colores y te imprima en cada caso si el color está en el arcoíris o no. 
+
+6. Realizar una función que te devuelva si existe un numero par en el array de números que introduces como parámetro de entrada. 
+
+7. Realizar un procedimiento que reciba un array de nombres y te devuelva verdadero si y solo si todos los nombres empiezan por M. 
+
+8. Realizar una función que te devuelva la suma del numero de caracteres de las palabras almacenadas en un array. 
+
+9. Realizar una función que te imprima por consola el siguiente mensaje: 
+
+	“El numero es par”, si el numero introducido como parámetro de entrada es par 
+
+	“El numero es impar”, si el numero introducido como parámetro de entrada es impar 
+
+10. Utilizando las dos funciones anteriores indicar si es par o impar la suma de los caracteres de cada uno de los siguientes arrays: 
+
+	[“Casa”, “Coche”, “Ciudad”, “Cesta”] 
+
+	[“Barco”, “Baca”, “Bicicleta”, “Balon”, “Bisiesto”, “Brasil”] 
+
+	[“Venezuela”, “Veneno”, “Voltaje”] 
+
+11. Clasificar las funciones según el tipo y guardarlas en ficheros distintos 
+
+	RepasoIf.ts 
+
+	RepasoFor.ts 
+
+	RepasoWhile.ts 
+
+12. Crear un proyecto nuevo en Git que se llame RepasoProgramacion y guardar los otros ficheros allí. 
