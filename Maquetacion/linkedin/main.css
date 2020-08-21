@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0px; 
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+#header {
+    background-color: #283e4a;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 8px;
+    align-items: center;
+    vertical-align: baseline;
+}
+.content{
+    float: none;
+    margin: auto;
+}
+#main {
+    padding: 24px;
+    display: block;
+}
+#header_logo {
+    padding: 32px 0 24px 0
+}
+#logo_h {
+    width: 10vw  
+}
+#header_content {
+    font-size: 1.5rem;
+    line-height: 1.33333;
+    font-weight: 600;
+    color: rgba(0,0,0,0.9);
+    outline-color: rgba(0,0,0,0.9);
+    padding: 0 0 4px 0; 
+    outline: 0;
+}
+#header_content_p {
+    font-size: 1rem;
+    line-height: 1.75;
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    padding-bottom: 32px;
+}
+.login_form {
+    position: relative;
+    background-color: #fff;
+    width: 30%;
+    margin: auto;
+    position: relative;
+    display: block;
+}
+input {
+    padding: 28px 12px 6px 12px;
+    margin: 12px 0px 0px 0px;
+    transition-duration: 334ms;
+    box-shadow: none;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.6);
+    width: 100%;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    vertical-align: middle;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    font-size: 16px;
+}
+.button {
+    background-color: #0073b1;
+    margin-top: 18px;
+    width: 100%;
+    height: 52px;
+    border: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 167ms;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    align-items: flex-start;
+}
+#footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+#forgot {
+    margin: 24px 0 0 0;
+    text-decoration: none;
+    color: #665ed0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: inherit;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+#unete {
+    text-decoration: none;
+    color: #665ed0;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    outline-width: 2px;
+
+}
+#down_footer {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    background-color: rgba(255,255,255,0.85);
+    align-items: center;
+    border-top: 1px solid rgba(0,0,0,0.15);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+ul {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    background-color: rgba(255,255,255,0.85);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#logo-mini {
+    float: left;
+    width: 5%; 
+}
+li {
+    border: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: rgba(0,0,0,0.6);
+    vertical-align: middle;
+    z-index: 0;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-family: inherit;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none; 
+    list-style: none; 
+
+}
+@media (max-width:750px)  {
+    .login_form {
+        position: relative;
+        background-color: #fff;
+        width: 90%;
+        margin: auto;
+        position: relative;
+        display: block;
+    } 
+    #logo_h {
+        width: 20vw  
+    }
+}
