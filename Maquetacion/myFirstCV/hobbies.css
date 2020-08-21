@@ -1,0 +1,48 @@
+body {
+    background-image: url(mojave.jpg);
+    background-attachment: scroll;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 2vw;
+}
+
+#hobbies {
+    background-color: rgba(72, 73, 72, 0.4);
+    font-family: fantasy, sans-serif;
+    height: 700px;
+    width: 1200px;
+    color: white;
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+   
+}
+h1 {
+    text-align: center;
+}
+ul {
+    font-family: monospace;
+    font-size: 2vw;
+    text-align: left;
+    float: left;
+    list-style: none;
+
+}
+.lista {
+    width: 10%;
+    float: left;
+    margin-right: 10px;
+}
+li {
+text-align: left;
+padding: 3%;
+}
+#game {
+    background-color: white;
+    
+}
+.lista:hover {
+    transform: scale(1.2);  
+    transition: all 0.5s;
+}
