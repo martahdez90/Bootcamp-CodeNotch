@@ -1,0 +1,118 @@
+body { 
+    text-align: center;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.white {
+    padding: 50px;
+}
+#profile{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: thick;
+    display: block;
+    border-radius: 50%;
+}
+#profile:hover {
+  transform: scale(1.2);  
+  transition: all 0.5s;
+}
+#datos {
+    background-image: url(background.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    font-family: monospace;
+    color: white;
+    padding: 2%;
+}
+
+#portada {
+    font-size: 3vw;
+}
+h2, .semi-bold{
+    font-family: monospace;
+    font-size: 2vw;
+}
+h3 {
+    font-family: monospace;
+    font-size: 1.5vw;
+}
+#hobbies {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    filter: invert(100%) ;
+    }
+
+.bold {
+    font-weight: 700;
+    font-size: 2vw;
+    text-transform: uppercase;
+  }
+  
+.semi-bold {
+    font-weight: 500;
+    font-size: 2vw;
+  }
+#welcome {
+    height: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#frase {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    height: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(programming.jpg);
+    background-attachment: fixed;
+    background-attachment: scroll;
+    color:white
+}
+#experiencia, #formacion {
+    height: 200px;
+    padding-top: 30px;
+}
+li {
+    list-style-type: none; 
+    text-align: left;
+    margin-left: 400px;
+    line-height: 30px;
+}
+#formacion {
+    border-top-style: solid;
+    border-color: black;
+    border-width: 10px;
+}
+footer {
+    background-image: url(background.jpg);
+    padding: 20px;
+    color: white;
+}
+.inline {
+    display: inline;
+}
+.resume_hobby {
+    padding-bottom: 30px;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 10px;
+}
+a_hobby:link {
+color:black;
+font-family: monospace;
+text-decoration: none;
+}
+a_hobby:visited {
+    color:black;
+    font-family: monospace;
+    text-decoration: none;  
+}
+a_hobby:hover {
+    color: grey;
+    transition: all 0.5s;
+    text-decoration: none;
+}

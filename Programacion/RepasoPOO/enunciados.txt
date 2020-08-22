@@ -1,0 +1,39 @@
+1.	Crear una clase llamada Mobile con las siguientes características:
+•	Propiedades Publicas
+	name
+	model
+	trademark
+	sdSize
+	color
+	is5G
+	cameraNumber
+	price
+
+•	Constructor a través del cual pueda inicializar todos los atributos
+
+2.	En otro fichero
+•	Crear un objeto de la clase Mobile llamado Nokia3210
+•	Crear un objeto de la clase Mobile llamado iPhone3G
+•	Crear un objeto de la clase Mobile llamado Samsug Galaxy 10
+•	Mostrar por consola todos los atributos de cada objeto
+•	Modificar el Nokia3210 para que tenga 5G y 4 camaras
+•	Mostrar todos los atributos del todos los objetos creados 
+
+3.	Crear un proyecto en GitHub denominado OOPReview y guardar estos ficheros ahí.
+
+4.	Modificar la clase anterior para que todos los atributos sean privados y crear los métodos setters y getters para cada atributo.
+
+5.	Crear un nuevo método que imprima todas las características del objeto siguiendo el siguiente patrón:
+
+•	“The characteristics of the mobile  name are:”
+	Name : name
+	Model: model
+	Trademark : trademark
+	SD Size (GB) : sdSize 
+	Color: color
+	Is 5g?: is5G
+	Number of Cameras: cameraNumber
+6.	En otro fichero hacer las mismas operaciones que se hicieron en el punto 2.
+7.	Crear un array de objetos de la clase Mobile con los tres objetos ya creados 
+8.	Mostrar cada uno de los atributos de cada uno de los objetos del array creado tal y como se especifica en el punto 4.
+9.	Actualizar el repositorio del GIT con los cambios introducidos.
