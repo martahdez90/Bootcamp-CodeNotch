@@ -1,0 +1,73 @@
+{
+  "id": "0",
+  "title": "Harry Potter",
+  "releaseYear": "2008",
+  "nationality": "British",
+  "genre": "comedy",
+  "actors": [
+    {
+      "id": 0,
+      "picture": "daniel.jpg",
+      "name": "Paula Sanchez",
+      "age": "28",
+      "genre": "female",
+      "weight": "60",
+      "height": "170",
+      "hairColor": "red",
+      "eyeColor": "blue",
+      "race": "white",
+      "isRetired": "no",
+      "nationality": "Spanish",
+      "profession": "actor"
+    },
+    {
+      "id": 1,
+      "picture": "daniel.jpg",
+      "name": "Mario Gomez",
+      "age": "28",
+      "genre": "female",
+      "weight": "60",
+      "height": "170",
+      "hairColor": "red",
+      "eyeColor": "blue",
+      "race": "white",
+      "isRetired": "no",
+      "nationality": "Spanish",
+      "profession": "actor"
+    }
+  ],
+  "director": {
+    "id": 0,
+    "picture": "daniel.jpg",
+    "name": "Marco Martinez",
+    "age": "38",
+    "genre": "male",
+    "weight": "80",
+    "height": "180",
+    "hairColor": "yellow",
+    "eyeColor": "blue",
+    "race": "white",
+    "isRetired": "no",
+    "nationality": "Portuguese",
+    "profession": "director"
+  },
+  "writer": {
+    "id": 0,
+    "picture": "daniel.jpg",
+    "name": "Marina Sanchez",
+    "age": "28",
+    "genre": "female",
+    "weight": "60",
+    "height": "170",
+    "hairColor": "red",
+    "eyeColor": "blue",
+    "race": "white",
+    "isRetired": "no",
+    "nationality": "Spanish",
+    "profession": "writer"
+  },
+  "language": "english",
+  "isMCU": "no",
+  "mainCharacterName": "Harry Potter",
+  "producer": "Mike S"
+}
