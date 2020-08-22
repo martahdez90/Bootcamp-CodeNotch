@@ -2,7 +2,8 @@
 
 Todos tenemos unos comienzos.
 
-En esta carpeta puedes ver mis primeros ejercicios de programación en JS durante el módulo 1 del bootcamp.
+En esta carpeta puedes ver los retos realizados en el bootcamp de programación web y móvil.
+
 
 ### ¡Gracias por tu visita!
 
